@@ -1,2 +1,2 @@
-# goit-markup-hw-08
-goit-markup-hw-08
+# goit-js-hw-06
+goit-js-hw-06
