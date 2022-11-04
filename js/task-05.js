@@ -5,7 +5,7 @@ const refs = {
 
 const onInputChange = event => {
   refs.nameOutput.textContent =
-    event.currentTarget.value !== '' ? event.currentTarget.value : 'Anonymous';
+    event.currentTarget.value.trim() !== '' ? event.currentTarget.value : 'Anonymous';
 };
 
 refs.nameInput.addEventListener('input', onInputChange);
